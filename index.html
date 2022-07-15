@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <form class="continr">
+    <div class="input-contin" id="submit-contin">
+      <h1>new message</h1>
+      <input type="submit" value="Submit">
+    </div>
+    <div class="input-contin">
+      <!-- if week or month is selected then add to form day -->
+      <label for="every-what">every:</label>
+      <select name="every" id="every-what">
+        <option value="every-day">day</option>
+        <option value="every-week">week</option>
+        <option value="every-month">month</option>
+      </select>
+    </div>
+    <div class="input-contin">
+      <label for="hour">hour</label>
+      <input type="datetime" name="hour" id="hour">
+    </div>
+    <div class="input-contin">
+      <label for="content">content</label>
+      <input type="text" name="content" id="content">
+    </div>
+    <!-- if week or month is selected then add to form day -->
+    <div class="input-contin">
+      <label for="day">day</label>
+      <input type="text" name="day" id="day">
+    </div>
+    <div class="input-contin">
+      <label for="contact">contact</label>
+      <input type="text" name="contact" id="contact">
+    </div>
+  </form>
+</body>
+</html>
